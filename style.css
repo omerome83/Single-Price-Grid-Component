@@ -11,8 +11,11 @@
   --neutral-white: hsl(0, 0%, 100%);
 }
 
-body {
+* {
   box-sizing: border-box;
+}
+
+body {
   margin: 0 auto;
   font-family: "Karla", sans-serif;
   background-color: var(--neutral-background-gray);
