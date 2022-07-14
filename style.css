@@ -62,13 +62,12 @@ li {
   grid-template-areas:
     "first-section  first-section"
     "second-section third-section";
-  margin: 5em auto;
-  max-width: 800px;
+  margin: 7em auto 0.75em;
+  max-width: 600px;
   border-radius: 0.75em;
   /* border-collapse: collapse; */
   overflow: hidden;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  margin-bottom: 0.75em;
 }
 
 .first-section {
