@@ -19,17 +19,18 @@ body {
 
 h1 {
   color: var(--primary-cyan);
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h2 {
   color: var(--primary-bright-yellow);
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 h3 {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
+  font-size: 1em;
 }
 
 p {
