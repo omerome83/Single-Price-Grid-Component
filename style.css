@@ -8,6 +8,7 @@
   --neutral-grayish-blue: hsl(218, 22%, 67%);
   --neutral-darker-shade-gray: hsla(0, 0%, 100%, 0.8);
   --neutral-background-gray: hsl(206, 47%, 93%);
+  --neutral-white: hsl(0, 0%, 100%);
 }
 
 body {
@@ -28,7 +29,7 @@ h2 {
 }
 
 h3 {
-  color: hsl(0, 0%, 100%);
+  color: var(--neutral-white);
   font-weight: 400;
   font-size: 1em;
 }
@@ -71,7 +72,7 @@ li {
 }
 
 .first-section {
-  background-color: #ffff;
+  background-color: var(--neutral-white);
   padding: 1.5em 2.5em;
   grid-area: first-section;
 }
@@ -83,14 +84,14 @@ li {
 }
 
 .second-section p {
-  color: #ffff;
+  color: var(--neutral-white);
   font-size: 0.85em;
   letter-spacing: 0.03em;
   font-weight: 400;
 }
 
 .subscription-price {
-  color: #ffff;
+  color: var(--neutral-white);
   font-weight: 700;
   font-size: 2em;
 }
@@ -113,7 +114,7 @@ li {
 }
 
 .signup-button {
-  color: hsl(0, 0%, 100%);
+  color: var(--neutral-white);
   display: block;
 }
 
