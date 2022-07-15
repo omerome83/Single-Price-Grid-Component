@@ -67,7 +67,7 @@ li {
   grid-template-areas:
     "first-section  first-section"
     "second-section third-section";
-  margin: 7em auto 0.75em;
+  margin: 10em auto 0.75em;
   max-width: 600px;
   border-radius: 0.75em;
   overflow: hidden;
